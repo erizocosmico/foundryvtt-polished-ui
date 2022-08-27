@@ -176,6 +176,7 @@ function loadCssFile(file) {
 	let elem = document.getElementById('polished-ui-custom-css-file');
 	if (!elem) {
 		elem = document.createElement('link');
+		elem.id = 'polished-ui-custom-css-file';
 		document.head.appendChild(elem);
 	}
 
