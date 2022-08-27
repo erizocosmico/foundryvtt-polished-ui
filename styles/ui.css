@@ -1,0 +1,148 @@
+:root {
+  --polished-ui-accent: var(--color-border-highlight);
+}
+
+.hidden {
+  height: 0 !important;
+  width: 0 !important;
+  visibility: hidden !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  opacity: 0 !important;
+}
+
+#logo.hidden,
+#sidebar-tabs .item[data-tab="cards"] {
+  display: none !important;
+}
+
+#controls.controls-hovered {
+  opacity: 0.5;
+  flex-grow: 0 !important;
+  flex-shrink: 1 !important;
+  flex-basis: auto !important;
+  height: auto;
+  pointer-events: all !important;
+}
+
+#controls.controls-hovered:hover {
+  opacity: 1;
+}
+
+#controls.controls-hovered ol.control-tools>li.scene-control:hover,
+#controls.controls-hovered ol.control-tools>li.scene-control.active,
+#controls.controls-hovered ol.control-tools>li.control-tool:hover,
+#controls.controls-hovered ol.control-tools>li.control-tool.active {
+  border-color: var(--polished-ui-accent);
+  box-shadow: 0 0 10px var(--polished-ui-accent);
+}
+
+#controls.controls-hovered ol.control-tools>li.scene-control:not(.active),
+#controls.controls-hovered ol .control-tool {
+  display: none !important;
+}
+
+#controls.controls-hovered:hover ol.main-controls .scene-control:not(.active),
+#controls.controls-hovered:hover ol.sub-controls .control-tool {
+  display: inline-block !important;
+}
+
+#chat-form textarea,
+#chat-form .cm-s-easymde {
+  background: rgba(255, 255, 255, 0.2) !important;
+  color: white !important;
+  transition: all 200ms ease-in-out;
+}
+
+#chat-form textarea:focus {
+  box-shadow: 0 0 5px var(--polished-ui-accent), 0 0 15px var(--polished-ui-accent) inset;
+  border-color: var(--polished-ui-accent);
+}
+
+#scenes .scene {
+  height: 50px;
+}
+
+#scenes .scene h3 {
+  line-height: 45px;
+}
+
+#sidebar {
+  border: none;
+  height: 100%;
+  padding-left: 50px;
+  top: 0;
+  right: 0;
+  margin: 0;
+  border-radius: 0;
+  min-width: 385px;
+  box-shadow: none;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(270deg,
+      rgba(0, 0, 0, 0.8191877092633928) 0%,
+      rgba(0, 0, 0, 0.737955216266194) 80%,
+      rgba(0, 0, 0, 0) 100%) !important;
+}
+
+#sidebar #sidebar-tabs {
+  justify-content: center;
+}
+
+#sidebar #sidebar-tabs a.collapse {
+  display: none;
+}
+
+#sidebar-tabs {
+  padding-top: 0.5em;
+  border: none;
+  box-shadow: none;
+}
+
+#sidebar-tabs>.item {
+  display: flex;
+  height: 30px;
+  min-width: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+#sidebar-tabs>.item.active {
+  border-radius: 50%;
+  border: 2px solid var(--polished-ui-accent);
+  box-shadow: 0 0 10px var(--polished-ui-accent), 0 0 10px var(--polished-ui-accent) inset;
+}
+
+#sidebar-tabs>.item.active i {
+  text-shadow: none;
+}
+
+#players:not(:hover) {
+  opacity: 0.5;
+}
+
+#sidebar .sidebar-tab header button,
+#sidebar #settings button {
+  border: 1px solid var(--polished-ui-accent);
+  color: #faecdb;
+  background: transparent;
+  box-shadow: 0 0 2px var(--polished-ui-accent), 0 0 5px var(--polished-ui-accent) inset;
+  border-radius: 0;
+  font-size: .85em;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all 200ms ease-in-out;
+  overflow-y: hidden;
+}
+
+#sidebar .sidebar-tab header button:hover,
+#sidebar .sidebar-tab header button:active,
+#sidebar #settings button:hover,
+#sidebar #settings button:active {
+  text-shadow: 0 0 15px var(--polished-ui-accent);
+  box-shadow: 0 0 2px var(--polished-ui-accent), 0 0 5px var(--polished-ui-accent) inset;
+  border: 1px solid var(--polished-ui-accent);
+}
+
+#sidebar #settings button+button {
+  margin-top: 1em;
+}

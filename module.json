@@ -1,0 +1,46 @@
+{
+	"name": "polished-ui",
+	"title": "Polished UI",
+	"description": "Customizable settings for a more polished UI for FoundryVTT.",
+	"version": "1.0.0",
+	"author": "Miguel Molina (erizocosmico)",
+	"authors": [
+		{
+			"name": "Miguel Molina",
+			"url": "https://github.com/erizocosmico"
+		}
+	],
+	"esmodules": [
+		"./scripts/main.js"
+	],
+	"styles": [
+		"./styles/ui.css"
+	],
+	"dependencies": [
+		{
+			"name": "colorsettings"
+		}
+	],
+	"languages": [
+		{
+			"lang": "es",
+			"name": "Español",
+			"path": "langs/es.json"
+		},
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "langs/en.json"
+		}
+	],
+	"minimumCoreVersion": "9",
+	"compatibleCoreVersion": "9",
+	"bugs": "https://github.com/erizocosmico/foundryvtt-polished-ui/issues",
+	"changelog": "https://github.com/erizocosmico/foundryvtt-polished-ui/releases",
+	"download": "https://github.com/erizocosmico/foundryvtt-polished-ui/releases/v1.0.0/download/module.zip",
+	"manifest": "https://github.com/erizocosmico/foundryvtt-polished-ui/releases/v1.0.0/download/module.json",
+	"readme": "https://github.com/erizocosmico/foundryvtt-polished-ui/blob/main/README.md",
+	"url": "https://github.com/erizocosmico/foundryvtt-polished-ui",
+	"allowBugReporter": true,
+	"manifestPlusVersion": "1.0.0"
+}
