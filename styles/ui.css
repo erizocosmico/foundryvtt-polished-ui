@@ -2,7 +2,11 @@
   --polished-ui-accent: var(--color-border-highlight);
 }
 
-.hidden {
+#logo.hidden,
+#controls.hidden,
+#hotbar.hidden,
+#navigation.hidden,
+#sidebar-tabs .item[data-tab="cards"].hidden {
   height: 0 !important;
   width: 0 !important;
   visibility: hidden !important;
@@ -12,7 +16,7 @@
 }
 
 #logo.hidden,
-#sidebar-tabs .item[data-tab="cards"] {
+#sidebar-tabs .item[data-tab="cards"].hidden {
   display: none !important;
 }
 
