@@ -2,10 +2,12 @@
 
 This module allows configuring the UI of your FoundryVTT world in the settings panel.
 
+**Works both with V9 and V10**.
+
 ### Install
 
 ```
-https://github.com/erizocosmico/foundryvtt-polished-ui/releases/download/v1.0.3/module.json
+https://github.com/erizocosmico/foundryvtt-polished-ui/releases/download/v1.0.4/module.json
 ```
 
 ### Features
