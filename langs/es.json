@@ -20,5 +20,7 @@
 	"POLISHEDUI.custom_logo": "Logo personalizado",
 	"POLISHEDUI.custom_logo_hint": "Elige una imagen para mostrar como logo personalizado.",
 	"POLISHEDUI.custom_logo_height": "Alto del logo en píxeles",
-	"POLISHEDUI.custom_logo_width": "Ancho del logo en píxeles"
+	"POLISHEDUI.custom_logo_width": "Ancho del logo en píxeles",
+	"POLISHEDUI.smaller_sidebar": "Barra lateral más pequeña",
+	"POLISHEDUI.smaller_sidebar_hint": "Hace la barra lateral más pequeña y reduce la sombra lateral para ahorrar espacio."
 }

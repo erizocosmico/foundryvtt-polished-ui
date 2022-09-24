@@ -120,6 +120,18 @@
   text-shadow: none;
 }
 
+#sidebar.smaller-sidebar {
+  min-width: 315px !important;
+  padding-left: 0 !important;
+  background: linear-gradient(270deg, rgba(0, 0, 0, 0.8191877092633928) 0%, rgba(0, 0, 0, 0.437955216266194) 90%, rgba(0, 0, 0, 0.237955216266194) 96%, rgba(0, 0, 0, 0) 100%) !important;
+}
+
+#sidebar.smaller-sidebar #sidebar-tabs>.item {
+  height: 27px;
+  min-width: 27px;
+  font-size: .85em;
+}
+
 #players:not(:hover) {
   opacity: 0.5;
 }

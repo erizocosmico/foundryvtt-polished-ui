@@ -7,7 +7,7 @@ This module allows configuring the UI of your FoundryVTT world in the settings p
 ### Install
 
 ```
-https://github.com/erizocosmico/foundryvtt-polished-ui/releases/download/v1.0.6/module.json
+https://github.com/erizocosmico/foundryvtt-polished-ui/releases/download/v1.1.0/module.json
 ```
 
 ### Features
@@ -17,6 +17,7 @@ https://github.com/erizocosmico/foundryvtt-polished-ui/releases/download/v1.0.6/
 - Custom accent color.
 - Nicer sidebar UI.
 - Add custom CSS using a file.
+- Smaller/wider sidebar.
 
 ### Requirements
 

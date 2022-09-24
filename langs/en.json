@@ -20,5 +20,7 @@
 	"POLISHEDUI.custom_logo": "Custom logo",
 	"POLISHEDUI.custom_logo_hint": "Choose an image as your custom logo.",
 	"POLISHEDUI.custom_logo_height": "Custom logo height in pixels",
-	"POLISHEDUI.custom_logo_width": "Custom logo width in pixels"
+	"POLISHEDUI.custom_logo_width": "Custom logo width in pixels",
+	"POLISHEDUI.smaller_sidebar": "Smaller sidebar",
+	"POLISHEDUI.smaller_sidebar_hint": "Makes the sidebar smaller and reduces the shadow to save space."
 }

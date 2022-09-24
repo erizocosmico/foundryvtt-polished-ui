@@ -9,6 +9,7 @@ const settings = {
 	customLogo: 'custom-logo',
 	customLogoWidth: 'custom-logo-width',
 	customLogoHeight: 'custom-logo-height',
+	smallerSidebar: 'smaller-sidebar',
 };
 
 Hooks.once('init', () => {
@@ -117,6 +118,16 @@ Hooks.once('init', () => {
 		filePicker: 'folder',
 	});
 
+	register(settings.smallerSidebar, {
+		name: lang('smaller_sidebar'),
+		hint: lang('smaller_sidebar_hint'),
+		scope: "world",
+		restricted: true,
+		config: true,
+		type: Boolean,
+		default: false
+	});
+
 	applySettings();
 });
 
@@ -130,6 +141,7 @@ function applySettings() {
 	setupDisplay(settings.displayCardsTab, '#sidebar-tabs .item[data-tab="cards"]');
 
 	const $controls = $('#controls');
+	const $sidebar = $('#sidebar');
 	const displayControls = get(settings.displayControls);
 	if (displayControls === 'no') {
 		$controls.addClass('hidden');
@@ -169,6 +181,12 @@ function applySettings() {
 	if (logoWidth) {
 		logo.width = logoWidth;
 		logo.style.width = `${logoWidth}px`;
+	}
+
+	if (get(settings.smallerSidebar)) {
+		$sidebar.addClass('smaller-sidebar');
+	} else {
+		$sidebar.removeClass('smaller-sidebar');
 	}
 }
 
