@@ -10,6 +10,11 @@ This module allows configuring the UI of your FoundryVTT world in the settings p
 https://github.com/erizocosmico/foundryvtt-polished-ui/releases/download/v1.2.0/module.json
 ```
 
+### Screenshots
+
+![Canvas](https://github.com/erizocosmico/foundryvtt-polished-ui/raw/master/images/screenshot_main.png)
+![Settings](https://github.com/erizocosmico/foundryvtt-polished-ui/raw/master/images/screenshot_settings.png)
+
 ### Features
 
 - Display/hide logo, controls, hotbar, navigation and cards tab.
